@@ -32,6 +32,8 @@ hyperparameters - specifc model hyperparameters given in training files
 Repeated for 10 different seeds to generate an ensemble of models
 
 
+Can be generally achieved using TrainNeurTxtGrader.py
+
 
 EVALUATION:
 
@@ -39,6 +41,7 @@ EVALUATION:
 Ensemble predictions simply averaged
 Statistics calculated: pcc, rmse, <0.5, <1.0 (refer to paper)
 
+Can be generally achieved using EvalNeurTxtGrader.py
 
 
 DEPENDENCIES:

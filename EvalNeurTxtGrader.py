@@ -66,7 +66,7 @@ for item in utterances:
 ids = []
 vals = []
 
-for id in grade_dict:
+for id in utt_embs:
     ids.append(id)
     vals.append(utt_embs[id])
 

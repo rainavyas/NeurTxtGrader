@@ -148,6 +148,6 @@ out_file = 'results.txt'
 f =  open(out_file, "w+")
 
 for id, pred in zip(remaining_ids, y_list):
-	f.write(id, pred)
+	f.write(str(id) + " " + str(pred))
 
 f.close()

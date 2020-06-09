@@ -124,8 +124,6 @@ M = [[([1]*utt_len + [-100000]*(X.size(2)- utt_len)) for utt_len in speaker] for
 M = torch.FloatTensor(M)
 
 
-# Set seed for reproducibility
-torch.manual_seed(seed)
 
 # force cpu for now
 device = torch.device("cpu")
